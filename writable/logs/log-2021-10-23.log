@@ -1,0 +1,898 @@
+ERROR - 2021-10-23 00:32:48 --> Unknown column 'usuario' in 'where clause'
+CRITICAL - 2021-10-23 00:32:48 --> Unknown column 'usuario' in 'where clause'
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\feria-comahue\app\Models\usuario_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(26): App\Models\usuario_model->obtener_usuario(Array)
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->login()
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#8 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-23 00:32:58 --> Unknown column 'usuario' in 'where clause'
+CRITICAL - 2021-10-23 00:32:58 --> Unknown column 'usuario' in 'where clause'
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\feria-comahue\app\Models\usuario_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(26): App\Models\usuario_model->obtener_usuario(Array)
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->login()
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#8 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-23 00:34:40 --> Unknown column 'usuario' in 'where clause'
+CRITICAL - 2021-10-23 00:34:40 --> Unknown column 'usuario' in 'where clause'
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\feria-comahue\app\Models\usuario_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(26): App\Models\usuario_model->obtener_usuario(Array)
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->login()
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#8 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-10-23 00:34:47 --> Unknown column 'usuario' in 'where clause'
+CRITICAL - 2021-10-23 00:34:47 --> Unknown column 'usuario' in 'where clause'
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\feria-comahue\app\Models\usuario_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(26): App\Models\usuario_model->obtener_usuario(Array)
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->login()
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#8 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-23 14:35:19 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 14:35:24 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:13:27 --> Cannot declare class App\Database\Seeds\producto_seeder, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-23 18:19:32 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:19:48 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:19:49 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:20:11 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:22:08 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:22:19 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:22:20 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:22:27 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(14): view('home')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->index()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:22:56 --> Invalid file: contacto/header.php
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contacto/header...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('contacto/header...', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(34): view('contacto/header...')
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo()
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 18:23:13 --> Invalid file: contacto/home.php
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contacto/home.p...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('contacto/home.p...', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(36): view('contacto/home.p...', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo()
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 18:23:19 --> Undefined property: stdClass::$id_rol
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(36): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:27:09 --> Undefined property: stdClass::$nombre_producto
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(36): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:41:37 --> Undefined property: stdClass::$id_rol
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home_feriante.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home_feriante.p...', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(34): view('home_feriante.p...', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_encargado()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:41:38 --> Undefined property: stdClass::$id_rol
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home_feriante.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home_feriante.p...', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(34): view('home_feriante.p...', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_encargado()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 18:42:04 --> Undefined property: stdClass::$nombre_producto
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home_feriante.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home_feriante.p...', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(34): view('home_feriante.p...', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_encargado()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 19:00:33 --> Invalid file: actualizar.php
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('actualizar', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('actualizar', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 19:01:02 --> Invalid file: actualizar.php
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('actualizar', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('actualizar', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 19:01:05 --> Invalid file: actualizar.php
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('actualizar', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('actualizar', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 19:02:55 --> Invalid file: actualizar.php
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('actualizar', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('actualizar', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 19:02:58 --> Invalid file: actualizar.php
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('actualizar', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('actualizar', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 19:04:19 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('home', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 19:04:57 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 19:07:21 --> Undefined variable: datos_productos
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('home', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 19:08:34 --> Trying to get property 'id_producto' of non-object
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): view('home', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 19:11:02 --> Undefined variable: mensaje
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 19:11:03 --> Undefined variable: mensaje
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 19:11:28 --> Trying to get property 'id_producto' of non-object
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(73): view('home', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 19:11:32 --> Trying to get property 'id_producto' of non-object
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(73): view('home', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('3')
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 19:44:07 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(36): view('home.php', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 19:44:08 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(36): view('home.php', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 20:56:00 --> Undefined index: id_producto
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->producto_actualizar()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 20:56:21 --> Undefined index: id_producto
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->producto_actualizar()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 21:04:38 --> Undefined index: $id_producto
+#0 C:\xampp\htdocs\feria-comahue\app\Views\editar_producto.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('editar_producto', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(89): view('editar_producto', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->obtener_nombre('2')
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 21:05:32 --> Too few arguments to function App\Controllers\usuarioController::producto_actualizar(), 0 passed in C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->producto_actualizar()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-23 21:06:36 --> Undefined index: id_prducto
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->producto_actualizar()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 21:26:44 --> Undefined variable: key
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 21:27:02 --> Undefined variable: key
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 21:27:03 --> Undefined variable: key
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 21:36:51 --> Undefined variable: nombre
+#0 C:\xampp\htdocs\feria-comahue\app\Views\crear_producto.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('crear_producto', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(45): view('crear_producto')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto_vista()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 21:36:52 --> Undefined variable: nombre
+#0 C:\xampp\htdocs\feria-comahue\app\Views\crear_producto.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('crear_producto', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(45): view('crear_producto')
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto_vista()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 21:39:41 --> Undefined index: id_producto
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-23 21:39:53 --> Cannot add or update a child row: a foreign key constraint fails (`feria-comahue`.`t_productos`, CONSTRAINT `t_productos_id_categoria_foreign` FOREIGN KEY (`id_categoria`) REFERENCES `t_categorias` (`id_categoria`))
+CRITICAL - 2021-10-23 21:39:53 --> Cannot add or update a child row: a foreign key constraint fails (`feria-comahue`.`t_productos`, CONSTRAINT `t_productos_id_categoria_foreign` FOREIGN KEY (`id_categoria`) REFERENCES `t_categorias` (`id_categoria`))
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\feria-comahue\app\Models\producto_model.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(68): App\Models\producto_model->insertar(Array)
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto()
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#8 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-23 21:41:20 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 21:41:55 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 21:41:57 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 21:42:49 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 21:42:53 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->crear_producto()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 21:58:20 --> usuario is not a valid rule.
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Controller.php(148): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('usuario')
+#1 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(102): CodeIgniter\Controller->validate('usuario')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->usuario_crear()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-23 22:00:36 --> Undefined index: nombre
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->usuario_crear()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-23 22:01:18 --> Undefined index: nombre
+#0 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->usuario_crear()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-23 22:13:03 --> Cannot add or update a child row: a foreign key constraint fails (`feria-comahue`.`t_usuarios`, CONSTRAINT `t_usuarios_id_rol_foreign` FOREIGN KEY (`id_rol`) REFERENCES `t_roles` (`id_rol`))
+CRITICAL - 2021-10-23 22:13:03 --> Cannot add or update a child row: a foreign key constraint fails (`feria-comahue`.`t_usuarios`, CONSTRAINT `t_usuarios_id_rol_foreign` FOREIGN KEY (`id_rol`) REFERENCES `t_roles` (`id_rol`))
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `t_...')
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\xampp\htdocs\feria-comahue\app\Models\usuario_model.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\feria-comahue\app\Controllers\loginController.php(111): App\Models\usuario_model->insertar(Array)
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\loginController->usuario_crear()
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\loginController))
+#8 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-10-23 23:08:08 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:08:31 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:08:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:10:53 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:11:01 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:11:02 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:11:06 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:11:21 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:11:54 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:11:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:14:24 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:15:06 --> syntax error, unexpected '$datos_productos' (T_VARIABLE), expecting ';' or ','
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#2 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-23 23:15:16 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:15:32 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:15:37 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:15:41 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:16:36 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:16:37 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:16:49 --> Undefined index: id_categoria
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:16:55 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:18:20 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:18:28 --> Array to string conversion
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:18:29 --> Array to string conversion
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:18:43 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:19:31 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:20:37 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:20:38 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:20:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:20:53 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:21:12 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:21:25 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#3 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#4 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-23 23:24:07 --> Undefined offset: 11
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-23 23:24:21 --> Undefined offset: 10
+#0 C:\xampp\htdocs\feria-comahue\app\Views\home.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home.php', Array, true)
+#4 C:\xampp\htdocs\feria-comahue\app\Controllers\usuarioController.php(37): view('home.php', Array)
+#5 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\usuarioController->catalogo_cliente()
+#6 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuarioController))
+#7 C:\xampp\htdocs\feria-comahue\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\feria-comahue\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
