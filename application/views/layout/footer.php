@@ -16,7 +16,7 @@
                     <div class="footer__logo">
                         <a href="#"><img src="<?= base_url("assets/"); ?>img/footer-logo.png" alt=""></a>
                     </div>
-                    <p>Lorem ipsum dolor amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                    <p>     </p>
                     <div class="footer__social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
@@ -28,9 +28,9 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="footer__about">
                     <h5>Subscribe</h5>
-                    <p>Get latest updates and offers.</p>
+                    <p> </p>
                     <form action="#">
-                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Correo">
                         <button type="submit"><i class="fa fa-send-o"></i></button>
                     </form>
                 </div>
@@ -71,8 +71,10 @@
 </div>
 </div>
 
-
 <script src="<?= base_url("assets/"); ?>js/jquery-3.3.1.min.js"></script>
+<!-- mercadopago -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- mercadopago -->
 <script src="<?= base_url("assets/"); ?>js/bootstrap.min.js"></script>
 <script src="<?= base_url("assets/"); ?>js/jquery.nice-select.min.js"></script>
 <script src="<?= base_url("assets/"); ?>js/jquery.barfiller.js"></script>
@@ -81,6 +83,13 @@
 <script src="<?= base_url("assets/"); ?>js/owl.carousel.min.js"></script>
 <script src="<?= base_url("assets/"); ?>js/jquery.nicescroll.min.js"></script>
 <script src="<?= base_url("assets/"); ?>js/main.js"></script>
+
+<!-- mercadopago -->
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+<script type="text/javascript" src="<?= base_url("assets/"); ?>js/mp.js" defer></script>
+    <!-- mercadopago -->
+
+
 
 
 <script>
@@ -102,6 +111,7 @@ function setCookie(cname, cvalue)
 
   function refreshCart()
   {
+	
     var products = JSON.parse(localStorage.getItem("products"));
     if(products != null)
     {
@@ -113,6 +123,25 @@ function setCookie(cname, cvalue)
   }
 
   refreshCart();
+
+
+  function reiniciar_carrito()
+  {
+
+	setCookie("productids",0);
+    setCookie("quantities", 0);
+ 
+	document.querySelector("#spnCartWeb").innerHTML = '0';
+	localStorage.setItem("products", null);
+	refreshCart();
+}
+
+
+
+  
 </script>
+
+
+
 </body>
 </html>

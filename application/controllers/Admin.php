@@ -39,7 +39,12 @@ class Admin extends CI_Controller {
             $this->cookie->setCookie("userid_rol", $row->id_rol);
 			$this->cookie->setCookie("userid", $row->id);
 			$id_rol=$row->id_rol;
-			if($id_rol == 2 ){
+			if($id_rol == 1 ){
+				//	echo "entraaaaaaa";
+				$this->cookie->setCookie("usertype", "admin");
+					redirect(base_url("admin/dashboard"));
+				}	
+			elseif($id_rol == 2 ){
 			//	echo "entraaaaaaa";
 			$this->cookie->setCookie("usertype", "admin");
 				redirect(base_url("admin/dashboard"));
@@ -170,6 +175,7 @@ class Admin extends CI_Controller {
 	{
 		$this->cookie->clearCookie("usertype");
 		$this->cookie->clearCookie("userid");
+
 		redirect(base_url());
 	}
 }

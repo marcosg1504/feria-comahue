@@ -1,15 +1,18 @@
+
+
+
 <div class="breadcrumb-option">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="breadcrumb__text">
-                    <h2>Checkout</h2>
+                    <h2>Informacion de Entrega</h2>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="breadcrumb__links">
-                    <a href="<?= base_url(); ?>">Home</a>
-                    <span>Checkout</span>
+                    <a href="<?= base_url(); ?>">Carga datos</a>
+                    <span>Envio</span>
                 </div>
             </div>
         </div>
@@ -62,10 +65,10 @@
               <?= $producto->nombre; ?> X <?= $quantity; ?>
             </td>
             <td><?= number_format($total, 2); ?>
-            <input type="hidden" name="productid<?= $count ?>" value="<?= $productids[$i]; ?>" />
-            <input type="hidden" name="quantity<?= $count ?>" value="<?= $quantity; ?>" />
-            <input type="hidden" name="price<?= $count ?>" value="<?= $producto->precio; ?>" />
-            <input type="hidden" name="total<?= $count ?>" value="<?= $total; ?>" />
+            <input type="hidden" name="productoid<?= $count ?>" value="<?= $productids[$i]; ?>" />
+            <input type="hidden" name="cantidad<?= $count ?>" value="<?= $quantity; ?>" />
+            <input type="hidden" name="precio<?= $count ?>" value="<?= $producto->precio; ?>" />
+            <input type="hidden" name="subtotal<?= $count ?>" value="<?= $total; ?>" />
           </td>
         </tr>
         <?php 
@@ -77,8 +80,10 @@
         <input type="hidden" name="count" value="<?= $count; ?>" />
         </div>
         <div class="col-lg-12 text-right">
-          Bill Amount: <?= number_format($billamount, 2); ?><br />
-          <input type="submit" class="btn btn-primary" value="Place Order & Pay" />
+          Total: <?= number_format($billamount, 2); ?><br />
+          <input type="submit" class="btn btn-primary" value="Pagar" />
+			
+
         </div>
         </div>
     </div>

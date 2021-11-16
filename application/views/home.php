@@ -130,7 +130,7 @@
                   <del style="color:red;"><small>$<?= number_format($producto->mayor_precio, 2); ?></small></del>
                 </div>
                 <div class="cart_add">
-                  <a href="<?= base_url('products/view/' . $producto->id); ?>">View Product</a>
+                  <a href="<?= base_url('products/view/' . $producto->id); ?>">Ver Producto</a>
                 </div>
               </div>
             </div>

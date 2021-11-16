@@ -29,8 +29,8 @@
       <div class="col-lg-6">
         <div class="product__details__text">
           <h4><?= $producto->nombre; ?></h4>
-          <h5>&#x20B9;<?= number_format($producto->precio, 2); ?>
-                  <del style="color:red;"><small>&#x20B9;<?= number_format($producto->mayor_precio, 2); ?></small></del></h5>
+          <h5>$<?= number_format($producto->precio, 2); ?>
+                  <del style="color:red;"><small>$;<?= number_format($producto->mayor_precio, 2); ?></small></del></h5>
           <b>Descripcion:</b>
           <p><?= $producto->descripcion; ?></p>
           <b>Categoria:</b>
@@ -41,7 +41,7 @@
                 <input type="text" id="quantity" value="1" />
               </div>
             </div>
-          <button class="primary-btn" onclick="addproducttocart()">Add to cart</button>
+          <button class="primary-btn" onclick="addproducttocart()">Añadir al carrito</button>
         </div>
       </div>
     </div>
@@ -50,6 +50,7 @@
 <script>
    function addproducttocart()
   {
+
     var productid = document.getElementById("productid").value;
     var quantity = document.getElementById("quantity").value;
     
@@ -90,7 +91,7 @@
     setCookie("quantities", quantities);
     localStorage.setItem("products", JSON.stringify(products));
     console.log(products);    
-    showSnackbar("Product added to cart.");
+    showSnackbar("Producto agregado al carrito");
     refreshCart();
   }
 

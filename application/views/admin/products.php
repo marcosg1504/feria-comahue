@@ -10,7 +10,7 @@
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item active"><a class="btn btn-success" href="<?= base_url("admin/product/0"); ?>">+ Product</a></li>
+              <li class="breadcrumb-item active"><a class="btn btn-success" href="<?= base_url("admin/product/0"); ?>">+ Producto</a></li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -36,8 +36,8 @@
 								if 	(($row->usuarioid) == ($_COOKIE["userid"])) {
                   ?>
                   <td style="width:100px;">
-                    <a href="<?= base_url("admin/product/" . $row->id); ?>">Edit</a>
-                    <a href="<?= base_url("admin/borrar_producto/" . $row->id); ?>" onclick="return confirm('Sure to delete?')">Delete</a>
+                    <a href="<?= base_url("admin/product/" . $row->id); ?>">Editar</a>
+                    <a href="<?= base_url("admin/borrar_producto/" . $row->id); ?>" onclick="return confirm('Seguro que quiere borrar?')">Eliminar</a>
                   </td>
                   <td><?= $count; ?></td>
                   <td><img src="<?= base_url("productpics/" . $row->nombre_imagen); ?>" style="height:100px;" /></td>

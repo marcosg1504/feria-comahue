@@ -14,7 +14,7 @@ class Logout extends CI_Controller {
 	public function index()
 	{
         $this->cookie->clearCookie("userid");
-        $this->cookie->clearCookie("usertpye");
+        $this->cookie->clearCookie("usertype");
         redirect(base_url());
     }
 }
