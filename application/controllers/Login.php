@@ -50,6 +50,7 @@ class Login extends CI_Controller {
         $telefono = $this->input->post("telefono");
         $correo = $this->input->post("correo");
         $contrasena = $this->input->post("contrasena");
+		
         $this->db->where("correo", $correo);
         $result = $this->db->get("t_usuarios");
         if($result->num_rows() > 0){
@@ -61,6 +62,7 @@ class Login extends CI_Controller {
             "telefono"=>$telefono,
             "correo"=>$correo,
             "contrasena"=>$contrasena,
+			"id_rol"=>"3",
         );
         $this->db->insert("t_usuarios", $field);
         $id = $this->db->insert_id();
@@ -93,6 +95,7 @@ class Login extends CI_Controller {
             "telefono"=>$telefono,
             "correo"=>$correo,
             "contrasena"=>$contrasena,
+			"id_rol"=>"2",
         );
         $this->db->insert("t_usuarios", $field);
         $id = $this->db->insert_id();

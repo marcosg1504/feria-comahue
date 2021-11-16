@@ -6,7 +6,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Order Detail</h1>
+            <h1 class="m-0">Pedido Detalle</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             
@@ -18,14 +18,14 @@
       <div class="container-fluid">
         <div class="row">
         <div class="col-lg-12">
-            Name: <?= $customer->nombre; ?><br />
-            Mobile No: <?= $customer->telefono; ?><br />
-            Email: <?= $customer->correo; ?><br />
-            Order Id: <?= $order->id; ?><br />
-            Order Date: <?= date_format(date_create($order->fecha_pedido), "d/m/Y"); ?><br />
+            Nombre: <?= $customer->nombre; ?><br />
+            Telefono: <?= $customer->telefono; ?><br />
+            Correo: <?= $customer->correo; ?><br />
+            Pedido Id: <?= $order->id; ?><br />
+            Pedido Fecha: <?= date_format(date_create($order->fecha_pedido), "d/m/Y"); ?><br />
             <table class="table table-bordered">
                 <tr>
-                    <th>No</th>
+                    <th>Nro</th>
                     <th>Producto</th>
                     <th>Precio</th>
                     <th>Cantidad</th>

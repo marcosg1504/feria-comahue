@@ -21,7 +21,8 @@
         <?php
           foreach($productos as $producto){
         ?>
-        <div class="col-lg-3 col-md-6 col-sm-6">
+			  <?php	if ($producto->estado == "activo") {    ?>
+					<div class="col-lg-3 col-md-6 col-sm-6">
           <a href="<?= base_url('products/view/' . $producto->id); ?>">
             <div class="product__item">
               <div class="product__item__pic set-bg" data-setbg="<?= base_url("productpics/" . $producto->id . ".png"); ?>">
@@ -39,6 +40,8 @@
             </div>
           </a>
         </div>
+				<?php	}?>
+        
         <?php } ?>
         </div>
     </div>

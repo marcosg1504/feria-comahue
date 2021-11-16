@@ -1,0 +1,8 @@
+VENDEDOR	
+{"id":1019164377,"nickname":"TESTXAAM0PXQ","password":"qatest3473","site_status":"active","email":"test_user_64404016@testuser.com"}
+TEST-65df8076-734e-42c5-bef0-89bbe707e7c4
+TEST-1435930968998447-111500-5bb7d34a82b6bd24a10232fc493deb85-1019164377
+
+
+
+COMPRADR								{"id":1019165401,"nickname":"TESTTWENGJKF","password":"qatest385","site_status":"active","email":"test_user_30256332@testuser.com"}

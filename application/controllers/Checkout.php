@@ -38,23 +38,25 @@ class Checkout extends CI_Controller {
     {
         $data["pedido"] = $this->order->getbydynamiclink($dynamiclink);
         $data["direccion"] = $this->order->getaddressbyid($data["pedido"]->direccionid);
-        $data["pedido_detalle"] = $this->order->gett_pedidos_detalles($data["pedido"]->usuarioid);
+        $data["pedido_detalle"] = $this->order->gett_pedidos_detalles($data["pedido"]->id);
         $data["usuario"] = $this->order->getuserbyid($data["pedido"]->usuarioid);
-        $this->load->view("layout/header", $data);
+        echo "acaaaaa asda";
+		echo print_r( $data["pedido"]->direccionid);
+		$this->load->view("layout/header", $data);
         $this->load->view("payment");
 		$this->load->view("layout/footer");
     }
 
     public function successrazorpayment()
     {
-        $link_dinamico = $this->input->post("dynamiclink");
-        $link_exito = $this->input->post("successlink");
+        $link_dinamico = $this->input->post("link_dinamico");
+        $link_exito = $this->input->post("link_exito");
      
         $order = $this->order->getbydynamiclink($link_dinamico);
         $query = "UPDATE t_pedidos SET estado_pedido = 'Pendiente', estado_pago = 'Pagado' WHERE id = " . $order->id;
         $this->db->query($query);
 
-        $query = "UPDATE t_pedidos_detalles SET status = 'Pendiente' WHERE orderid = " . $order->id;
+        $query = "UPDATE t_pedidos_detalles SET estado = 'Pendiente' WHERE pedidoid = " . $order->id;
         $this->db->query($query);
 
         $subject = "Your order placed.";
@@ -62,6 +64,6 @@ class Checkout extends CI_Controller {
         //Customer 1 mail
         //Vendor / Merchant 1 mail
         //Send mail
-        redirect(base_url("user"));
+        //redirect(base_url("user"));
     }
 }

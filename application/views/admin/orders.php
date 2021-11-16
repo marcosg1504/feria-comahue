@@ -20,10 +20,10 @@
           <div class="col-lg-12">
             <table class="table table-bordered">
               <tr>
-                <th>No</th>
-                <th>Order Date</th>
-                <th>Name</th>
-                <th>Amount</th>
+                <th>Nro</th>
+                <th>Fecha Pedido</th>
+                <th>Nombre</th>
+                <th>Monto</th>
               </tr>
               <?php
                 $count = 1;

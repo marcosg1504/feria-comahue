@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -10,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 
+
     <link rel="stylesheet" href="<?= base_url("assets/"); ?>css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="<?= base_url("assets/"); ?>css/flaticon.css" type="text/css">
     <link rel="stylesheet" href="<?= base_url("assets/"); ?>css/barfiller.css" type="text/css">
@@ -21,6 +26,11 @@
     <link rel="stylesheet" href="<?= base_url("assets/"); ?>css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="<?= base_url("assets/"); ?>css/style.css" type="text/css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url("assets/"); ?>css/mp.css">
+
 
 <style>
 #snackbar {
@@ -135,6 +145,13 @@
                                         <span id="spnCartWeb">0</span>
                                         Mi Carrito
                                     </a>
+
+					
+                                </div>
+
+								<div class="header__top__right__cart">
+                                  
+									<button class="primary-btn" onclick="reiniciar_carrito()">Reiniciar Carrito </button>
                                 </div>
                             </div>
                         </div>
